@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v2.2.0
         if: always()
         with:
-         name: screenshots
+         name: videos
          path: web/cypress/videos
 
 
