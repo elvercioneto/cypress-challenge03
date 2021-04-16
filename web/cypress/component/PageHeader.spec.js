@@ -11,7 +11,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 
 context('PageHeader component', () => {
     const baseCss = '/__root/src/assets/styles/global.css'
-    const indexCss = '/__root/src/component/PageHeader/styles.css'
+    const indexCss = './../components/PageHeader/styles.css'
 
     it('deve ser renderizado com sucesso', () => {
         const title = "Que incrível que você quer dar aulas."
