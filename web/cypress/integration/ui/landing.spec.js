@@ -6,7 +6,7 @@ const larguras = [1200, 1099]
     larguras.forEach(largura =>{
         //a crase é utilizada para um template string
         //o skip é utilizado para não rodar o teste
-        context.skip(`Landing Page - ${largura}px`, () => {
+        context(`Landing Page - ${largura}px`, () => {
             beforeEach(()=> {
                 cy.visit('/')
                 //cy.viewport('largura', 'altura')   //serve pra redimensioar a parte visivel da nossa tela

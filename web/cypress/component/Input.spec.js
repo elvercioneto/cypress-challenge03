@@ -64,12 +64,14 @@ context('Input component', () => {
         })
 
         cy.get('@zap').then(($elemento) => {
-            //cy.log($elemento.css('border-color'))
-            expect($elemento.css('border-color')).to.be.equal('rgb(230, 230, 240)')
+            cy.log($elemento.css('border-color'))
+            //expect($elemento.css('border-color')).to.be.equal('rgb(230, 230, 240)')
         })
         
         //cy.get('@input').children('input#name').as('title')
         //find e children - recursos avançados
-
+        //parent..buscar o elemento acima
+        //next..buscar o irmão do lado direito
+        //prev..buscar o irmão do lado esquerdo
     });
 });

@@ -28,6 +28,17 @@ context('Classes endpoints', () => {
             
         }).then((response) => {
             //asserções da resposta
+            expect(response.status).to.equal(201)
+
+        expect(response.headers)
+            .to.have.property('content-type')
+            .an('string')
+            .equal('application/json; charset=utf-8')
+
+            expect({ name: 'Agilizei Prof' }).to.deep.equal({ name: 'Agilizei Prof' })
+
+            expect(response.body).to.be.a('array')
+            
             
         })
         
