@@ -38,3 +38,6 @@
 
 1. adicione a URL de seu Cypress Dashboard no README do Github
 2. envie o projeto do Github no link 
+
+### Link da URL do Cypress Dashboard
+https://dashboard.cypress.io/projects/ja4w66/runs/1/specs
